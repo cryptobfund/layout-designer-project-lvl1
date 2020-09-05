@@ -1,4 +1,10 @@
 /** CSS STYLE **/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .common {
   color: #303846;
   font-size: 16px;
