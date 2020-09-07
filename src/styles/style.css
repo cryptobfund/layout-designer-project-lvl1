@@ -1,15 +1,54 @@
 /** CSS STYLE **/
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.common {
+.body {
+  margin: 0;
+  padding: 0;
   color: #303846;
   font-size: 16px;
   font-family: Calibri, sans-serif;
   line-height: 1.5;
+}
+
+.header-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-style {
+  height: 60px;
+  padding: 5px 20px 5px 20px;
+  border-bottom: black;
+  border-bottom-style: solid;
+  border-width: thin;
+  font-weight: bold;
+
+  background: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+header .menu ul {
+  display: flex;
+
+  list-style: none;
+}
+
+header .menu ul li {
+  margin-left: 10px;
+}
+
+header .menu ul a {
+  text-decoration: none;
 }
 
 h1 {
