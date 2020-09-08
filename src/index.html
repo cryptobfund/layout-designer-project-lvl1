@@ -70,18 +70,18 @@
                 <h2>Оставьте заявку сегодня!</h2>
                 <form action="" method="post" class="width-50">
                     <fieldset class="form-border">
-                        <legend class="form-color fw-b">Параметры квариты</legend>
+                        <legend class="legend fw-b">Параметры квариты</legend>
                         <div class="block-flex justify-between">
-                            <p>Количество комнат:</p>
-                            <select>
+                            <label for="rooms" class="label fw-b">Количество комнат:</label>
+                            <select class="select" id="rooms" name="rooms">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                             </select>
                         </div>
                         <div class="block-flex justify-between">
-                            <p>Количество комнат:</p>
-                            <select>
+                            <label for="finishing" class="label fw-b">Отделка:</label>
+                            <select class="select" id="finishing" name="finishing">
                                 <option value="1">Без отделки</option>
                                 <option value="2">Стандарт</option>
                                 <option value="3">Премиум</option>
@@ -89,8 +89,21 @@
                         </div>
                     </fieldset>
                     <fieldset class="form-border">
-                        <legend class="form-color fw-b">Контактная информация</legend>
+                        <legend class="legend fw-b">Контактная информация</legend>
+                        <div class="block-flex justify-between">
+                            <label for="name" class="label fw-b">Имя:</label>
+                            <input type="text" class="select" id="name" name="name">
+                        </div>
+                        <div class="block-flex justify-between">
+                            <label for="phone" class="label fw-b">Телефон:</label>
+                            <input type="text" class="select" id="phone" name="phone">
+                        </div>
+                        <div class="block-flex justify-between">
+                            <label for="email" class="label fw-b">E-mail:</label>
+                            <input type="email" class="select" id="email" name="email">
+                        </div>
                     </fieldset>
+                    <button class="btn-post">Отправить</button>
                 </form>
             </div>
         </section>
