@@ -22,11 +22,11 @@
     </header>
     <main>
         <section class="bg-moon">
-            <div class="block-moon-flex block text-white">
+            <div class="block-flex-column block text-white">
                 <img src="./images/logo.svg" alt="logo" class="block-moon-logo">
                 <h1>ЖК «Лунное море»</h1>
                 <p class="fw-b">Место, откуда не хочется улетать</p>
-                <a href="" class="btn">Забронировать</a>
+                <a href="#form" class="btn">Забронировать</a>
             </div>
         </section>
         <section id="benefits">
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="bg-about">
+        <section id="about" class="bg-grey">
             <div class="block-flex block justify-around">
                 <div class="width-45">
                     <h2>«О ЖК «Лунное море»</h2>
@@ -63,6 +63,35 @@
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
                     <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
                 </div>
+            </div>
+        </section>
+        <section id="form" class="bg-grey">
+            <div class="block-flex-column block">
+                <h2>Оставьте заявку сегодня!</h2>
+                <form action="" method="post" class="width-50">
+                    <fieldset class="form-border">
+                        <legend class="form-color fw-b">Параметры квариты</legend>
+                        <div class="block-flex justify-between">
+                            <p>Количество комнат:</p>
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="block-flex justify-between">
+                            <p>Количество комнат:</p>
+                            <select>
+                                <option value="1">Без отделки</option>
+                                <option value="2">Стандарт</option>
+                                <option value="3">Премиум</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-border">
+                        <legend class="form-color fw-b">Контактная информация</legend>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>
