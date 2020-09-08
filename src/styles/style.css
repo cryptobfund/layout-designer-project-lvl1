@@ -92,13 +92,19 @@ h2 {
 }
 
 .btn {
-
-}
-
-.link-form {
   margin-right: 10px;
   margin-left: 10px;
+  padding: 10px;
   border-radius: 10px;
   font-weight: bold;
   font-size: 1em;
+  background-color: transparent;
+  border-color: white;
+  border: 1px solid;
+  text-decoration: none;
+  color: white;
+}
+
+.fw-b {
+  font-weight: bold;
 }
