@@ -75,13 +75,15 @@ h2 {
   align-items: center;
 }
 
-.block-moon {
+.block {
   box-sizing: border-box;
   width: 1000px;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
+}
 
+.text-white {
   color: white;
 }
 
@@ -95,16 +97,47 @@ h2 {
   margin-right: 10px;
   margin-left: 10px;
   padding: 10px;
-  border-radius: 10px;
+
+  color: white;
   font-weight: bold;
   font-size: 1em;
-  background-color: transparent;
-  border-color: white;
-  border: 1px solid;
   text-decoration: none;
-  color: white;
+
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .fw-b {
   font-weight: bold;
+}
+
+.block-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.benefits-width {
+  width: 30%;
+}
+
+.bg-about {
+  background: #f7f7f7;
+}
+
+.width-45 {
+  width: 45%;
+}
+
+.width-30 {
+  width: 30%;
 }
