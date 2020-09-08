@@ -184,3 +184,7 @@ h2 {
   border: 1px solid #09d3ac;
   border-radius: 10px;
 }
+
+.bg-dark {
+  background: #303846;
+}
