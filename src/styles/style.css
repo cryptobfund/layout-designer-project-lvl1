@@ -1,15 +1,18 @@
 /** CSS STYLE **/
 
-.body {
+body {
   margin: 0;
   padding: 0;
+
   color: #303846;
   font-size: 16px;
-  font-family: Calibri, sans-serif;
+  font-family: Liberation Sans, sans-serif;
   line-height: 1.5;
 }
 
 .header-flex {
+  position: fixed;
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -17,14 +20,13 @@
 }
 
 .header-style {
+  box-sizing: border-box;
+  width: 100%;
   height: 60px;
-  padding: 5px 20px 5px 20px;
-  border-bottom: black;
-  border-bottom-style: solid;
-  border-width: thin;
-  font-weight: bold;
+  padding: 5px 20px;
 
   background: #fff;
+  border-bottom: 1px solid grey;
 }
 
 .logo {
@@ -34,20 +36,16 @@
 }
 
 .logo img {
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
 }
 
-header .menu ul {
-  display: flex;
-
-  list-style: none;
-}
-
-header .menu ul li {
+.link {
   margin-left: 10px;
-}
 
-header .menu ul a {
+  color: inherit;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -63,4 +61,44 @@ h2 {
   margin-bottom: 0.5em;
 
   font-size: 1.8em;
+}
+
+.bg-moon {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.block-moon-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-moon {
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  color: white;
+}
+
+.block-moon-logo {
+  max-width: 170px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.btn {
+
+}
+
+.link-form {
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1em;
 }
