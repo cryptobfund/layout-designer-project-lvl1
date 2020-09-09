@@ -26,27 +26,27 @@
                 <img src="./images/logo.svg" alt="logo" class="block-moon-logo">
                 <h1>ЖК «Лунное море»</h1>
                 <p class="fw-b">Место, откуда не хочется улетать</p>
-                <a href="#form" class="btn">Забронировать</a>
+                <a href="#form" class="btn btn-white">Забронировать</a>
             </div>
         </section>
         <section id="benefits">
-            <div class="block-flex block justify-between">
-                <div class="benefits-width">
+            <div class="block-flex block justify-between align-start">
+                <div class="width-30">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
                 </div>
-                <div class="benefits-width">
+                <div class="width-30">
                     <h2>Инфраструктура</h2>
                     <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
                 </div>
-                <div class="benefits-width">
+                <div class="width-30">
                     <h2>Близость к Москве</h2>
                     <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
                 </div>
             </div>
         </section>
         <section id="about" class="bg-grey">
-            <div class="block-flex block justify-around">
+            <div class="block-flex block justify-around align-center">
                 <div class="width-45">
                     <h2>«О ЖК «Лунное море»</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -56,7 +56,7 @@
             </div>
         </section>
         <section id="places">
-            <div class="block-flex block justify-around">
+            <div class="block-flex block justify-around align-center">
                 <img src="./images/moon-2.jpg" alt="moon" class="width-30">
                 <div class="width-45">
                     <h2>Места для отдыха</h2>
@@ -71,17 +71,17 @@
                 <form action="" method="post" class="width-50">
                     <fieldset class="form-border">
                         <legend class="legend fw-b">Параметры квариты</legend>
-                        <div class="block-flex justify-between">
+                        <div class="block-flex justify-between align-center">
                             <label for="rooms" class="label fw-b">Количество комнат:</label>
-                            <select class="select" id="rooms" name="rooms">
+                            <select class="field" id="rooms" name="rooms">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                             </select>
                         </div>
-                        <div class="block-flex justify-between">
+                        <div class="block-flex justify-between align-center">
                             <label for="finishing" class="label fw-b">Отделка:</label>
-                            <select class="select" id="finishing" name="finishing">
+                            <select class="field" id="finishing" name="finishing">
                                 <option value="1">Без отделки</option>
                                 <option value="2">Стандарт</option>
                                 <option value="3">Премиум</option>
@@ -90,35 +90,52 @@
                     </fieldset>
                     <fieldset class="form-border">
                         <legend class="legend fw-b">Контактная информация</legend>
-                        <div class="block-flex justify-between">
+                        <div class="block-flex justify-between align-center">
                             <label for="name" class="label fw-b">Имя:</label>
-                            <input type="text" class="select" id="name" name="name">
+                            <input type="text" class="field" id="name" name="name">
                         </div>
-                        <div class="block-flex justify-between">
+                        <div class="block-flex justify-between align-center">
                             <label for="phone" class="label fw-b">Телефон:</label>
-                            <input type="text" class="select" id="phone" name="phone">
+                            <input type="text" class="field" id="phone" name="phone">
                         </div>
-                        <div class="block-flex justify-between">
+                        <div class="block-flex justify-between align-center">
                             <label for="email" class="label fw-b">E-mail:</label>
-                            <input type="email" class="select" id="email" name="email">
+                            <input type="email" class="field" id="email" name="email">
                         </div>
                     </fieldset>
-                    <button class="btn-post">Отправить</button>
+                    <button class="btn btn-emerald">Отправить</button>
                 </form>
             </div>
         </section>
     </main>
     <footer>
         <section class="bg-dark">
-            <div class="block-flex block justify-between text-white">
+            <div class="block-flex block justify-between text-white align-start">
                 <div>
-                    <a class="logo link mb-16" href="/">
-                        <img class="logo-img" src="/images/logo.svg" alt="logo">
-                        <span class="logo-text">Лунное море</span>
+                    <a class="logo link" href="./">
+                        <img src="./images/logo.svg" alt="logo">
+                        <h3>Лунное море</h3>
                     </a>
-                <div class="copyright">&copy; 2032 год</div>
+                    <div>
+                        <small>&copy; 2032 год</small>
+                    </div>
+                </div>
+                <div>
+                    <h3>Проектная документация</h3>
+                    <ul>
+                        <li>Скачать</li>
+                        <li>Посмотреть на сайте</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>О застройщике</h3>
+                    <ul>
+                        <li>Отзывы</li>
+                        <li>Сайт компании</li>
+                    </ul>
+                </div>
             </div>
-            </div>
+
         </section>
     </footer>
 </body>
