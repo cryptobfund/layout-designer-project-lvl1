@@ -10,17 +10,46 @@ body {
   line-height: 1.5;
 }
 
+.mt-60 {
+  margin-top: 60px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+
+.ai-start {
+  align-items: flex-start;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
 .header-position {
   position: fixed;
   top: 0;
   left: 0;
-}
-
-.header-flex {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .header-style {
@@ -32,15 +61,10 @@ body {
   background: #fff;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
+.logo-small {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
+  padding: 0 10px;
 }
 
 .link {
@@ -71,34 +95,23 @@ h2 {
   background-size: cover;
 }
 
-section {
-  padding: 60px;
-}
-
-.block-flex-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.block {
+.container {
   box-sizing: border-box;
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 60px 0;
 }
 
 .text-white {
   color: white;
 }
 
-.block-moon-logo {
+.mw-170 {
   max-width: 170px;
-  margin-top: 60px;
-  margin-bottom: 15px;
 }
 
 .btn {
-  margin-top: 10px;
+
   padding: 10px 20px;
 
   font-weight: bold;
@@ -120,31 +133,6 @@ section {
   color: #09d3ac;
 
   border-color: #09d3ac;
-}
-
-.fw-b {
-  font-weight: bold;
-}
-
-.block-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.align-start {
-  align-items: flex-start;
-}
-
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .bg-grey {
@@ -192,8 +180,4 @@ section {
 
 .bg-dark {
   background: #303846;
-}
-
-h3 {
-  font-size: 1em;
 }
