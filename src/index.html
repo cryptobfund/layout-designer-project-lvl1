@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="d-flex f-wrap ai-center jc-between header-position header-style">
-        <a class="d-flex ai-center link" href="./">
-            <img class="logo-small" src="./images/logo.svg" alt="moon phases logo">
-            <span>Лунное море</span>
+    <header class="display-flex align-center justify-between header-position header-style">
+        <a class="display-flex align-center link" href="./">
+            <img class="logo-small padding-right-10" src="./images/logo.svg" alt="moon phases logo">
+            <span class="padding-right-10">Лунное море</span>
         </a>
         <nav>
             <a class="link" href="#benefits">Преимущества</a>
@@ -20,17 +20,17 @@
             <a class="link" href="#places">Места для отдыха</a>
         </nav>
     </header>
-    <main class="mt-60">
+    <main class="margin-top-60">
         <section class="bg-moon">
-            <div class="container d-flex fd-column ai-center text-white">
-                <img src="./images/logo.svg" alt="moon phases logo" class="mw-170">
+            <div class="container display-flex flex-direction-column align-center text-light-color">
+                <img src="./images/logo.svg" alt="moon phases logo" class="logo-big">
                 <h1>ЖК «Лунное море»</h1>
-                <p class="fw-b">Место, откуда не хочется улетать</p>
-                <a href="#form" class="btn btn-white">Забронировать</a>
+                <p class="font-bold">Место, откуда не хочется улетать</p>
+                <a href="#form" class="btn btn-light">Забронировать</a>
             </div>
         </section>
         <section id="benefits">
-            <div class="container d-flex f-wrap ai-start">
+            <div class="container display-flex">
                 <div class="width-30">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -46,7 +46,7 @@
             </div>
         </section>
         <section id="about" class="bg-grey">
-            <div class="container d-flex f-wrap jc-around ai-center">
+            <div class="container display-flex justify-around align-center">
                 <div class="width-45">
                     <h2>«О ЖК «Лунное море»</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -56,7 +56,7 @@
             </div>
         </section>
         <section id="places">
-            <div class="container d-flex f-wrap jc-around ai-center">
+            <div class="container display-flex justify-around align-center">
                 <img src="./images/moon-2.jpg" alt="spacemen with a beer Earth view" class="width-30">
                 <div class="width-45">
                     <h2>Места для отдыха</h2>
@@ -66,21 +66,21 @@
             </div>
         </section>
         <section id="form" class="bg-grey">
-            <div class="container d-flex fd-column ai-center">
+            <div class="container display-flex flex-direction-column align-center">
                 <h2>Оставьте заявку сегодня!</h2>
                 <form action="./" method="post" class="width-50">
                     <fieldset class="form-border">
-                        <legend class="legend fw-b">Параметры квариты</legend>
-                        <div class="d-flex f-wrap jc-between ai-center">
-                            <label for="rooms" class="label fw-b">Количество комнат:</label>
+                        <legend class="legend font-bold">Параметры квариты</legend>
+                        <div class="display-flex justify-between align-center">
+                            <label for="rooms" class="label font-bold">Количество комнат:</label>
                             <select class="field" id="rooms" name="rooms">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                             </select>
                         </div>
-                        <div class="d-flex f-wrap jc-between ai-center">
-                            <label for="finishing" class="label fw-b">Отделка:</label>
+                        <div class="display-flex justify-between align-center">
+                            <label for="finishing" class="label font-bold">Отделка:</label>
                             <select class="field" id="finishing" name="finishing">
                                 <option value="1">Без отделки</option>
                                 <option value="2">Стандарт</option>
@@ -89,17 +89,17 @@
                         </div>
                     </fieldset>
                     <fieldset class="form-border">
-                        <legend class="legend fw-b">Контактная информация</legend>
-                        <div class="d-flex f-wrap jc-between ai-center">
-                            <label for="name" class="label fw-b">Имя:</label>
+                        <legend class="legend font-bold">Контактная информация</legend>
+                        <div class="display-flex justify-between align-center">
+                            <label for="name" class="label font-bold">Имя:</label>
                             <input type="text" class="field" id="name" name="name">
                         </div>
-                        <div class="d-flex f-wrap jc-between ai-center">
-                            <label for="phone" class="label fw-b">Телефон:</label>
+                        <div class="display-flex justify-between align-center">
+                            <label for="phone" class="label font-bold">Телефон:</label>
                             <input type="text" class="field" id="phone" name="phone">
                         </div>
-                        <div class="d-flex f-wrap jc-between ai-center">
-                            <label for="email" class="label fw-b">E-mail:</label>
+                        <div class="display-flex justify-between align-center">
+                            <label for="email" class="label font-bold">E-mail:</label>
                             <input type="email" class="field" id="email" name="email">
                         </div>
                     </fieldset>
@@ -110,9 +110,9 @@
     </main>
     <footer>
         <section class="bg-dark">
-            <div class="container d-flex f-wrap jc-between text-white ai-start">
+            <div class="container display-flex justify-between text-light-color">
                 <div>
-                    <a class="d-flex ai-center link" href="./">
+                    <a class="display-flex align-center link" href="./">
                         <img class="logo-small" src="./images/logo.svg" alt="moon phases logo">
                         <p>Лунное море</p>
                     </a>
@@ -121,14 +121,14 @@
                     </div>
                 </div>
                 <div>
-                    <p class="fw-b">Проектная документация</p>
+                    <p class="font-bold">Проектная документация</p>
                     <ul>
                         <li>Скачать</li>
                         <li>Посмотреть на сайте</li>
                     </ul>
                 </div>
                 <div>
-                    <p class="fw-b">О застройщике</p>
+                    <p class="font-bold">О застройщике</p>
                     <ul>
                         <li>Отзывы</li>
                         <li>Сайт компании</li>

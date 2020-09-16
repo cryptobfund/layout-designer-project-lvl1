@@ -1,48 +1,49 @@
 /** CSS STYLE **/
 
+:root {
+  --header-height: 60px;
+  --gray-color: #f7f7f7;
+  --light-color: #fff;
+  --primary-color: #303846;
+  --secondary-color: #09d3ac;
+  --dark-gray-color: darkgray;
+}
+
 body {
   margin: 0;
   padding: 0;
 
-  color: #303846;
+  color: var(--primary-color);
   font-size: 16px;
   font-family: Liberation Sans, sans-serif;
   line-height: 1.5;
 }
 
-.mt-60 {
-  margin-top: 60px;
+.margin-top-60 {
+  margin-top: var(--header-height);
 }
 
-.d-flex {
+.display-flex {
   display: flex;
 }
 
-.ai-center {
+.align-center {
   align-items: center;
 }
 
-.f-wrap {
-  flex-wrap: wrap;
-}
-
-.fd-column {
+.flex-direction-column {
   flex-direction: column;
 }
 
-.fw-b {
+.font-bold {
   font-weight: bold;
 }
 
-.ai-start {
-  align-items: flex-start;
-}
-
-.jc-around {
+.justify-around {
   justify-content: space-around;
 }
 
-.jc-between {
+.justify-between {
   justify-content: space-between;
 }
 
@@ -55,16 +56,18 @@ body {
 .header-style {
   box-sizing: border-box;
   width: 100%;
-  height: 60px;
+  height: var(--header-height);
   padding: 5px 20px;
 
-  background: #fff;
+  background: var(--light-color);
 }
 
 .logo-small {
-  width: 30px;
-  height: 30px;
-  padding: 0 10px;
+  max-width: 30px;
+}
+
+.padding-right-10 {
+  padding-right: 10px;
 }
 
 .link {
@@ -102,11 +105,11 @@ h2 {
   padding: 60px 0;
 }
 
-.text-white {
-  color: white;
+.text-light-color {
+  color: var(--light-color);
 }
 
-.mw-170 {
+.logo-big {
   max-width: 170px;
 }
 
@@ -121,22 +124,23 @@ h2 {
   background-color: transparent;
   border: 1px solid;
   border-radius: 10px;
+  cursor: pointer;
 }
 
-.btn-white {
-  color: white;
+.btn-light {
+  color: var(--light-color);
 
-  border-color: white;
+  border-color: var(--light-color);
 }
 
 .btn-emerald {
-  color: #09d3ac;
+  color: var(--secondary-color);
 
-  border-color: #09d3ac;
+  border-color: var(--secondary-color);
 }
 
 .bg-grey {
-  background: #f7f7f7;
+  background: var(--gray-color);
 }
 
 .width-45 {
@@ -154,15 +158,15 @@ h2 {
 .legend {
   margin: 0 10px;
 
-  color: #09d3ac;
+  color: var(--secondary-color);
   font-size: 22px;
 }
 
 .form-border {
-  margin: 10px 0 5px;
+  margin-bottom: 15px;
   padding: 20px;
 
-  border: 2px solid #09d3ac;
+  border: 2px solid var(--secondary-color);
 }
 
 .label {
@@ -174,10 +178,10 @@ h2 {
   margin: 5px;
   padding: 5px;
 
-  border: 1px solid darkgrey;
+  border: 1px solid var(--dark-gray-color);
   border-radius: 10px;
 }
 
 .bg-dark {
-  background: #303846;
+  background: var(--primary-color);
 }
