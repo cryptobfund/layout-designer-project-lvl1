@@ -9,6 +9,10 @@
   --dark-gray-color: darkgray;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,7 +23,7 @@ body {
   line-height: 1.5;
 }
 
-.margin-top-60 {
+.margin-top-header {
   margin-top: var(--header-height);
 }
 
@@ -102,7 +106,7 @@ h2 {
   box-sizing: border-box;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: var(--header-height) 0;
 }
 
 .text-light-color {
