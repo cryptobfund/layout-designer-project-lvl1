@@ -74,9 +74,11 @@ body {
   padding-right: 10px;
 }
 
-.link {
-  padding: 0 10px;
+.padding-left-10 {
+  padding-right: 10px;
+}
 
+.link {
   color: inherit;
   font-weight: bold;
   text-decoration: none;
